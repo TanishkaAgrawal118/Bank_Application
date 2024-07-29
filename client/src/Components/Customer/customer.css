@@ -1,0 +1,19 @@
+.registration{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(7, 25, 162);
+    background: linear-gradient(90deg, rgb(9, 24, 134) 0%, rgb(44, 103, 211) 100%);
+}
+.registration h5{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.form-control{
+    margin: 0px 0px 5px 0px;
+    width: 40vw;
+    height: 35px;
+}

@@ -1,0 +1,52 @@
+.home-top{
+    background-color: #f0fdfa;
+    padding: 5px;
+}
+.home-top p{
+    margin: 5px 10px 2px 10px;
+    cursor: pointer;
+}
+.home-top2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(6, 6, 120);
+    color: white;
+    padding: 2px;  
+}
+.home-top2 p{
+    margin: 1px 20px 1px 0px;
+}
+.drop-menu{
+    background-color: rgb(6, 6, 120);
+    color: white;
+    
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; 
+  }
+  
+  .icon-text p {
+    margin: 0;
+    margin-left: 5px; 
+  }
+  
+  .custom-dropdown-toggle {
+    background-color: rgb(6, 6, 120); 
+    border: none; 
+    color: white; 
+  }
+  .dropdown-list{
+    background-color:rgb(6, 6, 120);
+  }
+  .dropdown-list .dropdown-item {
+    color: whitesmoke;
+  }
+  .dropdown-list .dropdown-item:hover,
+  .dropdown-list .dropdown-item:focus {
+    background-color: #413ef1;
+    color: #fff;
+  }

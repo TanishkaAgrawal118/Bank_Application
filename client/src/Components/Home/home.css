@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(217, 255, 255) !important;
+    margin: 0;
+    padding: 0;
+}
+.main-open{
+    position: relative;
+    padding: 30px;
+    margin-left: 80px;
+}
+.main-close{
+    position: relative;
+    padding: 30px;
+    margin-left: 10px;
+}
+
+.boxmain-open{
+    position: relative;
+    border-radius: 30px !important;
+    padding: 20px;
+    background-color: rgb(167, 199, 255) !important;
+    padding-left: 100px;
+}
+.boxmain-close{
+    position: relative;
+    border-radius: 30px !important;
+    padding: 20px;
+    background-color: rgb(167, 199, 255) !important;
+    padding-left: 10px;
+}
+.boxmain-open h1{
+    color: white;
+}
+.boxmain-close h1{
+    color: white;
+}
+.heading {
+    text-align: center;
+    margin: 10px auto;
+    height: auto;
+    width: 85% !important;
+    border-radius: 10px;
+    color: white;
+    padding: 2px;
+    background: rgb(14,24,98);
+    background: linear-gradient(90deg, rgba(14,24,98,1) 0%, rgba(175,84,231,1) 100%);;
+}
+
+.heading h3 {
+    font-size: 22px;
+}
+.box-1{
+    margin: 10px;
+    border: 2px solid white;
+    height: auto;
+    border-radius: 20px !important;
+    padding: 15px;
+    background: rgb(51,164,243);
+    background: linear-gradient(29deg, rgba(51,164,243,1) 17%, rgba(195,242,255,1) 98%);
+}
+.box-1 hr{
+    border-top: 3px solid whitesmoke;
+    margin: 2px 0px 2px 10px;
+    width: 98%
+}
+.box-2{
+    text-align: center;
+    margin: 10px;
+    border: 2px solid white;
+    height: auto;
+    border-radius: 20px !important;
+    padding: 15px;
+    background: rgb(51,164,243);
+    background: linear-gradient(29deg, rgba(51,164,243,1) 17%, rgba(195,242,255,1) 98%);
+}
+.box-2 p, .box-2 h5, .box-2 h4{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+}
+.summary p {
+    margin: 0 5px;
+}
+
+.summary .right-align {
+    margin-left: auto;
+}
+.report-button {
+    align-self: flex-end;
+    font-size: 0.5rem;
+    padding: 3px 3px !important;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(3, 3, 150) !important;
+}
+
+.leftbox{
+    background-color: rgb(3, 3, 150) !important;
+    border-radius: 10px !important;
+    padding: 10px;
+    position: fixed;
+    height: auto;
+    width: 180px;
+    top: 150px;
+    z-index: 10;
+    left: 10px;
+}
+.leftbox h4{
+    text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.overlapBox{
+    margin: 15px 1px 1px 1px;
+    border: 2px solid white;
+    height: auto;
+    border-radius: 5px !important;
+    padding: 2px;
+    background: rgb(51,164,243);
+    background: linear-gradient(29deg, rgba(51,164,243,1) 17%, rgba(195,242,255,1) 98%);
+}
+.overlapBox h4{
+    font-size: 14px;
+    color: black;
+}
+.overlapBox:hover{
+    cursor: pointer;
+    transform: scale(1.15); /* transform used for smooth scaling */
+    transition: all 0.8s; 
+}

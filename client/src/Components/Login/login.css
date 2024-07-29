@@ -1,0 +1,97 @@
+.login {
+    background: rgb(13,26,125);
+    background: linear-gradient(193deg, rgba(13,26,125,1) 0%, rgba(38,17,240,1) 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginBox {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 370px;
+    background: rgb(13,26,124);
+    background: linear-gradient(90deg, rgba(13,26,124,1) 0%, rgba(30,8,239,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+
+  /* .loginBox ::before{
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 140%;
+    background-color: white;
+    box-shadow: 0 0 20pxx rgb(8, 8, 8);
+    animation: animate 4s linear infinite;
+  }
+.loginBox ::after{
+  content: '';
+  position: absolute;
+  inset: 10px;
+  background-color: blue;
+  border-radius: 16px;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(160deg);
+  }
+} */
+
+  .loginBox h3{
+    color: white;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 25px;
+  }
+  .loginInput {
+    width: 100%;
+    color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px; 
+    align-self: flex-start;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px; 
+    align-self: flex-start;
+    width: 260px;
+    background-color: rgb(206, 206, 255);
+  }
+  
+.loginBtn{
+  margin: 30px;
+    cursor: pointer;
+    height: 39px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding:auto;
+    background-color: rgb(17, 17, 123);
+    color: white;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.7); 
+    transition: box-shadow 0.3s ease; 
+}

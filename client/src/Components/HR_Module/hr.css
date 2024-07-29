@@ -1,0 +1,22 @@
+.register{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(7, 25, 162);
+    background: linear-gradient(90deg, rgb(9, 24, 134) 0%, rgb(44, 103, 211) 100%);
+}
+.register h5{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.choice{
+    background: rgb(7, 25, 162);
+    background: linear-gradient(90deg, rgb(9, 24, 134) 0%, rgb(44, 103, 211) 100%);
+    color: white;
+    padding: 20px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;  
+}
